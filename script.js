@@ -27,7 +27,7 @@ if(data[7]===totalwar) //god!!!
 {
 	awardbadge(7);
 }
-if((data[9]/data[8]*100)>=85)
+if((data[9]*100.0)/data[8]>=85)
 {
 awardbadge(8)
 }
