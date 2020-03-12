@@ -13,7 +13,7 @@ function awardBadge(n){
 }
 splash.addEventListener("click",endsplash);
 
-let data=[0,0,0,0,0,1000,0,0,0,0];
+let data=[1999,1990,1990,0,0,9,0,0,0,0];
 // pehle paanch categories, sixth is rank, warrior attempt, warrior correct, total attempt, total correct
 const max=2000;
 const totalque = 22;
