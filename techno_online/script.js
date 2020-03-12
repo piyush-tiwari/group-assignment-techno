@@ -9,10 +9,11 @@ function awardBadge(n){
 	let splashitem=document.createElement("li");
 	splashitem.appendChild(badge.cloneNode(false));
 	splashlist.appendChild(splashitem);
+	document.querySelector(".splash div h1").innerHTML="Congratulations! You've won some badges!"
 }
 splash.addEventListener("click",endsplash);
 
-let data=[0,1999,0,1000,0,9,5,0,0,0];
+let data=[0,0,0,0,0,1000,0,0,0,0];
 // pehle paanch categories, sixth is rank, warrior attempt, warrior correct, total attempt, total correct
 const max=2000;
 const totalque = 22;
@@ -25,7 +26,7 @@ for(i=0;i<5;i++)
 	}
 }
 
-if(data[5]<101)
+if(data[5]<101) //rank
 {
 	awardBadge(5);
 }
